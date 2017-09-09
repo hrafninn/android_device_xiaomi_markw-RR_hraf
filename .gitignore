@@ -6,7 +6,6 @@
 *.old
 *.bak
 *.orig
-*.conf~
 *.c~
 *~
 
