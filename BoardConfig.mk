@@ -61,7 +61,7 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := markw_defconfig
 #TARGET_KERNEL_SOURCE := kernel/xiaomi/markw
-TARGET_KERNEL_SOURCE := kernel/xiaomi/markw_new/android_kernel_xiaomi_msm8953
+TARGET_KERNEL_SOURCE := kernel/xiaomi/markw_new
 
 USE_CLANG_PLATFORM_BUILD := true
 

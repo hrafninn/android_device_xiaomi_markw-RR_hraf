@@ -9,6 +9,6 @@
  },
  {
    "repository": "android_kernel_xiaomi_markw",
-   "target_path": "kernel/xiaomi/markw"
+   "target_path": "kernel/xiaomi/markw_new"
  }
 ]
