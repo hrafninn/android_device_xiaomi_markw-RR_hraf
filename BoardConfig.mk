@@ -62,6 +62,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := markw_defconfig
 #TARGET_KERNEL_SOURCE := kernel/xiaomi/markw
 TARGET_KERNEL_SOURCE := kernel/xiaomi/markw_new
+TARGET_PREBUILT_KERNEL := device/xiaomi/markw/voodoo
+PRODUCT_COPY_FILES += \
+	$(TARGET_PREBUILT_KERNEL):kernel
 
 USE_CLANG_PLATFORM_BUILD := true
 
